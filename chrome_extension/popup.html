@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>AIScrubbers Studio</title>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="brand">
+      <div class="logo-badge">AS</div>
+      <div>
+        <h1>AI<span>Scrubbers</span></h1>
+        <p>100% Client-Side Privacy Studio</p>
+      </div>
+    </div>
+    <span class="pill">0 Uploads</span>
+  </header>
+
+  <section class="quick-scrubber">
+    <label for="quickText">Quick Invisible Watermark &amp; PII Cleaner:</label>
+    <textarea id="quickText" rows="3" placeholder="Paste ChatGPT text or prompt here to strip U+200B watermarks &amp; emails..."></textarea>
+    <div class="btn-row">
+      <button id="cleanWatermarkBtn" type="button" class="btn-primary">Clean Watermarks</button>
+      <button id="redactPiiBtn" type="button" class="btn-secondary">Scrub PII</button>
+    </div>
+    <p id="statusMsg" class="status-msg"></p>
+  </section>
+
+  <section class="tools-grid">
+    <a href="https://aiscrubbers.com/c2pa-remover/" target="_blank" rel="noopener noreferrer" class="tool-card">
+      <strong>C2PA Metadata Remover</strong>
+      <span>Strip "Made with AI" social tags</span>
+    </a>
+    <a href="https://aiscrubbers.com/notebooklm-file-merger/" target="_blank" rel="noopener noreferrer" class="tool-card">
+      <strong>NotebookLM 100+ Merger</strong>
+      <span>Bypass 50-source upload limit</span>
+    </a>
+    <a href="https://aiscrubbers.com/ai-text-to-word-cleaner/" target="_blank" rel="noopener noreferrer" class="tool-card">
+      <strong>ChatGPT to Word Cleaner</strong>
+      <span>Remove **, ### &amp; grey backgrounds</span>
+    </a>
+    <a href="https://aiscrubbers.com/chatgpt-export-converter/" target="_blank" rel="noopener noreferrer" class="tool-card">
+      <strong>conversations.json to PDF</strong>
+      <span>Open ChatGPT data exports locally</span>
+    </a>
+  </section>
+
+  <footer class="footer">
+    <a href="https://aiscrubbers.com/" target="_blank" rel="noopener noreferrer">Open All 16 Local AI Tools →</a>
+  </footer>
+
+  <script src="popup.js"></script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "AIScrubbers — Free C2PA Remover, AI Watermark Cleaner & PII Scrubber",
+  "version": "1.0.0",
+  "description": "Clean invisible ChatGPT zero-width watermarks, redact prompt PII locally, strip C2PA metadata, and merge 100+ files for NotebookLM.",
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "AIScrubbers Studio"
+  },
+  "permissions": []
+}

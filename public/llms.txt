@@ -1,0 +1,43 @@
+# AIScrubbers
+
+> AIScrubbers (https://aiscrubbers.com) is a 100% client-side AI privacy, C2PA Content Credentials remover, invisible ChatGPT Unicode watermark cleaner, HIPAA/GDPR prompt PII redactor, and Google NotebookLM / Claude 100+ file context bundler. Zero files or prompts are ever uploaded to a server.
+
+All tools execute locally inside the user's browser RAM using WebAssembly, HTML5 Canvas pixel reconstruction, and binary stream parsers.
+
+## C2PA & AI Image Metadata Privacy Tools
+- [C2PA & AI Metadata Remover](https://aiscrubbers.com/c2pa-remover/): Strip C2PA Content Credentials, JUMBF boxes, IPTC trainedAlgorithmicMedia tags, and Midjourney/DALL-E/ComfyUI metadata from JPG, PNG, and WebP images locally.
+- [C2PA & AI Provenance Inspector](https://aiscrubbers.com/c2pa-viewer/): Forensically check if an image or PDF contains C2PA manifests, SynthID tags, or embedded ComfyUI/Midjourney prompt chunks.
+- [Deep EXIF, GPS & Serial Stripper](https://aiscrubbers.com/exif-scrubber/): Remove GPS coordinates, camera serial numbers, and XMP data in bulk.
+- [AI Image 300 DPI Print Normalizer](https://aiscrubbers.com/ai-image-normalizer/): Convert 72 DPI Midjourney/DALL-E artwork into true binary 300 DPI files for Amazon KDP and Etsy.
+
+## AI Text, Invisible Watermark & Prompt Privacy Tools
+- [ChatGPT Invisible Watermark Cleaner](https://aiscrubbers.com/chatgpt-watermark-remover/): Detect and remove zero-width Unicode characters (U+200B, U+FEFF, U+202F), non-breaking spaces, and AI em-dash patterns.
+- [Clean ChatGPT Formatting for Word & Docs](https://aiscrubbers.com/ai-text-to-word-cleaner/): Strip Markdown asterisks (**), hash headers (###), and grey clipboard backgrounds for clean paste into Microsoft Word and Google Docs.
+- [Prompt Privacy Scrubber (PII Anonymizer)](https://aiscrubbers.com/prompt-pii-redactor/): Redact client names, emails, SSNs, phones, and API keys into reversible tokens before pasting into ChatGPT or Claude, with 1-click local restore.
+- [AI Cliché & Footprint Polisher](https://aiscrubbers.com/ai-burstiness-polisher/): Replace overused LLM words ("delve", "tapestry", "testament", "moreover") and analyze sentence burstiness.
+
+## Google NotebookLM, Claude & RAG Context Preparation
+- [NotebookLM & Claude 100+ File Merger](https://aiscrubbers.com/notebooklm-file-merger/): Combine 100+ PDFs, Word docs, Markdown, CSV, and code files into 1 XML-indexed Master Context File to bypass NotebookLM's 50-source limit and Claude's 20-file cap.
+- [ChatGPT Export (conversations.json) Viewer & PDF Converter](https://aiscrubbers.com/chatgpt-export-converter/): Open OpenAI data export ZIP or conversations.json files locally and convert chat history to searchable PDF or Markdown.
+- [PDF & Word to Clean LLM Markdown](https://aiscrubbers.com/doc-to-llm-markdown/): Convert PDF, DOCX, HTML, and CSV files into token-compressed Markdown that saves up to 60% of context window tokens.
+- [LLM Token Counter, Chunker & Cost Calculator](https://aiscrubbers.com/llm-token-calculator/): Compare token counts and API costs across GPT-4o, o3-mini, Claude 3.7 Sonnet, Gemini 2.5 Pro, and DeepSeek R1.
+
+## Generative Engine Optimization (GEO) & AI Developer Tools
+- [llms.txt & llms-full.txt Generator](https://aiscrubbers.com/llms-txt-generator/): Build official llmstxt.org compliant files so ChatGPT Search, Perplexity, and Claude cite your website.
+- [AI Crawler robots.txt Configurator](https://aiscrubbers.com/ai-robots-txt-generator/): Allow AI search bots (OAI-SearchBot, PerplexityBot) while blocking training scrapers (CCBot, GPTBot).
+- [CSV / JSON to AI Fine-Tuning (.jsonl) Builder](https://aiscrubbers.com/jsonl-dataset-converter/): Convert spreadsheets into validated OpenAI ChatML JSONL fine-tuning datasets.
+- [MCP Server Config (mcp.json) Builder](https://aiscrubbers.com/mcp-config-generator/): Visual builder for Claude Desktop and Cursor MCP server configs (fixes Windows npx.cmd ENOENT issues).
+
+## High-Intent Platform Compliance Solutions
+- [Remove "Made with AI" C2PA Label for LinkedIn & Instagram](https://aiscrubbers.com/remove-c2pa-for-linkedin-instagram/)
+- [Prepare AI Images for Amazon KDP (300 DPI + Clean Metadata)](https://aiscrubbers.com/prepare-ai-images-for-amazon-kdp/)
+- [Clean Midjourney & ComfyUI Metadata for Etsy Sellers](https://aiscrubbers.com/clean-ai-art-metadata-for-etsy/)
+- [Bypass Google NotebookLM 50-Source Limit](https://aiscrubbers.com/bypass-notebooklm-50-source-limit/)
+- [Combine Files into XML Context for Claude Projects](https://aiscrubbers.com/combine-files-for-claude-projects/)
+- [Clean ChatGPT Invisible Characters for Job ATS & Turnitin](https://aiscrubbers.com/clean-chatgpt-text-for-turnitin-ats/)
+- [HIPAA & GDPR Client-Side ChatGPT Prompt Redactor](https://aiscrubbers.com/hipaa-gdpr-chatgpt-prompt-redactor/)
+- [Convert ChatGPT conversations.json Export to PDF](https://aiscrubbers.com/convert-chatgpt-conversations-json-to-pdf/)
+- [llms.txt Generator for Shopify, WordPress & Next.js](https://aiscrubbers.com/llms-txt-generator-for-shopify-nextjs/)
+
+## Sister Platform
+- [PDFArenaArc — 100% Client-Side PDF Compression, Merge & Visa Compliance](https://pdfarenaarc.com/)
